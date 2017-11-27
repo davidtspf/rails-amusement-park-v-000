@@ -1,0 +1,9 @@
+<%= form_tag sessions_create_path do %>
+  <label>User name:</label><br>
+  <%= text_field_tag :'user[name]' %><br>
+
+  <label>User password:</label><br>
+  <%= text_field_tag :'user[password]' %><br>
+
+  <%= submit_tag "Sign In" %>
+<% end %>
